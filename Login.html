@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autentique-se - Barbearia São Carlos</title>
+    <!-- <link rel="stylesheet" href="assets/css/login.css"> -->
+	<link rel="shortcut icon" href="assets/css/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/login.css">
+    
+    <script >
+        function abrirModal() {
+            let modal = document.getElementById("modal")
+            modal.style.display = "block"
+    
+            let escuro = document.getElementById("escuro")
+            escuro.style.display = "block"
+        }
+
+        function fecharModal() {
+            let modal = document.getElementById("modal")
+            modal.style.display = "none"
+    
+            let escuro = document.getElementById("escuro")
+            escuro.style.display = "none"
+        }
+    </script>
+</head>
+<body>
+    <div class="card-login">
+        <h2>Login</h2>
+        <form action="">
+            <input type="text" placeholder="Usuario" class="txtUsuarios" id="txtUsuario">
+            <input type="password" placeholder="Senha" class="txtPassword" id="txtSenha">
+            <input type="button" value="Entrar" id="btnEntra">
+        </form>
+    </div>
+
+    <div id="escuro"></div>
+    <div id="modal">
+        <h2>Você não possui uma conta!</h2>
+        <a href="assets/Cadastro_d_P.html" id="cadastro_Lk"><p>Clique para cadastrar</p></a>
+        <a href=""><p>Esqueceu a senha?</p></a>
+        <br>
+        <button id="btnCadastra">Cadastrar</button>
+        <button class="deny" onclick="fecharModal()">Cancelar</button>
+    </div> 
+    <a href="catalogo/pgCompra/catalogo.html" id="links"></a>
+
+    <script src="assets/js/login.js"></script>
+    
+</body>
+<!--<script src="assets/js/login.js"></script>-->
+</html>
