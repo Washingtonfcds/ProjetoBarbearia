@@ -1,0 +1,62 @@
+html, body {
+    background: #131625;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  row;
+    margin: 0px;
+    
+}
+.area{
+    margin-top: 20px;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(25, 25, 31);
+    margin-top: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.input1{
+    border: 0;
+  margin-left: 65px;
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+  border-right: 0;
+  background-color: transparent;
+  outline: 0;
+  color: white;
+  
+}
+.input2{
+    border: 0;
+    margin-left:65px ;
+    margin-top: 15px;
+    border-bottom: 1px solid white;
+    background-color: rgb(25, 25, 31);
+    border-right: 0;
+    outline: 0;
+    color: white;
+}
+.btnSeguir{
+    margin-top: 50px;
+    margin-left:80px ;
+    background-color:#e44c65 ;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0;
+}
+.title1{
+    margin-left: 83px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+
+}
